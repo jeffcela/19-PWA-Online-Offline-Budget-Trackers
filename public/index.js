@@ -1,4 +1,4 @@
-// enable service worker if present
+// enable service worker if available
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/service-worker.js')
